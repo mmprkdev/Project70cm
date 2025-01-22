@@ -1,0 +1,148 @@
+The dots are always 1
+The symbol spaces are always 2
+The dashes are always 4
+The letter spaces are always 5
+
+Logic:
+When there is a transition from high to low or low to high, count the number of 1s or 0s between the current transition and the previous transition. Based on this, build the morse code.
+
+Number of samples: 97
+LETTER K
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 symbol space
+0.0
+
+1.0
+1.0
+1.0
+1.0 dash
+
+0.0 letter space
+0.0
+0.0
+0.0
+0.0
+
+LETTER F
+1.0 dot
+
+0.0 symbol space
+0.0
+
+1.0 dot
+
+0.0 symbol space
+0.0
+
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 symbol space
+0.0
+
+1.0 dot
+
+0.0 letter space
+0.0
+0.0
+0.0
+0.0
+
+NUMBER 0
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 symbol space
+0.0
+
+1.0 dash 
+1.0
+1.0
+1.0
+
+0.0 symbol space
+0.0
+
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 symbol space
+0.0
+
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 symbol space
+0.0
+
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 letter space
+0.0
+0.0
+0.0
+0.0
+
+LETTER S
+1.0 dot
+
+0.0 symbol space
+0.0
+
+1.0 dot
+
+0.0 symbol space
+0.0
+
+1.0 dot
+
+0.0 letter space
+0.0
+0.0
+0.0
+0.0
+
+LETTER T
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 letter space
+0.0
+0.0
+0.0
+0.0
+
+LETTER K
+1.0 dash
+1.0
+1.0
+1.0
+
+0.0 symbol space
+0.0
+
+1.0 dot
+
+0.0 symbol space
+0.0
+
+1.0 (cut off here)
+
+

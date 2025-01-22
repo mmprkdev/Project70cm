@@ -1,0 +1,31 @@
+ASK Tx:
+Vector Source -> Repeat, 100 -> Multiply -> Pluto SDR sink
+    Signal Source, Sign wave ->
+    
+ASK Rx:
+RTLSDR Source -> Complex to Magnitide -> Threshold -> Keep 1 in N -> Some kind of sink
+
+3.26ms - 6.5ms: 3.24ms
+ With interpolation set to 100, each pulse is about 3.3ms long and each space is about 3ms. Should both be 3ms but this is probably ok.
+ 
+ Setting interpolation to 6k gives a time period of around 180ms, we will try this.
+ 
+ 
+ 
+ KF0STK in Morse code (translated to 0 and 1s):
+ K: [1, 1, 1, 0, 1, 1, 1]
+ LETTER SPACE: [0, 0, 0]
+ F: [1, 0, 1, 0, 1, 1, 1, 0, 1]
+ LETTER SPACE: [0, 0, 0]
+ 0: [1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1]
+ LETTER SPACE: [0, 0, 0]
+ S: [1, 0, 1, 0, 1]
+ LETTER SPACE: [0, 0, 0]
+ T: [1, 1, 1]
+ LETTER SPACE: [0, 0, 0]
+ K: [1, 1, 1, 0, 1, 0, 1, 1, 1]
+ WORD SPACE: [0, 0, 0, 0, 0, 0, 0]
+ 
+ 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0    
+ 
+ The 'Baud' rate is about 5.5 symbols per second (1/180ms) which is also the bit rate in this case.
